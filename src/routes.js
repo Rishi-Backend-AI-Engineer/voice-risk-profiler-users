@@ -3,6 +3,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 // Import pages
+
 import Homepage from './components/public/Homepage';
 import About from './components/public/About';
 import ContactUs from './components/public/ContactUs';
@@ -40,6 +41,7 @@ const AppRoutes = () => {
       <Route path="/profile" element={<Profile />} />
       <Route path="/feature" element={<MainFeature />} />
       <Route path="/help" element={<Help />} />
+      
       
 
       {/* Fallback */}
